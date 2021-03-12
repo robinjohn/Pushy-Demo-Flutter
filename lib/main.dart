@@ -5,6 +5,11 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:pushy_flutter/pushy_flutter.dart';
 
+// void main() => runZonedGuarded(
+//       () => runApp(Main()),
+//     (Object, StackTrace) {}
+// );
+
 void main() => runApp(Main());
 
 // Please place this code in main.dart,
@@ -12,7 +17,7 @@ void main() => runApp(Main());
 
 void backgroundNotificationListener(Map<String, dynamic> data) {
   // Print notification payload data
-  print('Received notification: $data');
+  print('Entered backgroundNotificationListener: $data');
 
   // Notification title
   String notificationTitle = 'MyApp';

@@ -1,4 +1,4 @@
-package me.pushy.example;
+package me.pushy.example.youtap;
 
 import io.flutter.app.FlutterApplication;
 
